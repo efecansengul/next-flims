@@ -1,0 +1,17 @@
+.genres {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, auto));
+  gap: 24px;
+  margin-top: -15px;
+  height: 150px;
+  align-items: center;
+}
+.gen {
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #141414;
+  border-radius: 4px;
+  opacity: 0.8;
+}

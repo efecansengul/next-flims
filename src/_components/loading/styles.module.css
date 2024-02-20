@@ -1,0 +1,22 @@
+.spinner {
+  width: 10em;
+  height: 10em;
+  border-top: 1em solid #5e5d5d;
+  border-right: 1em solid transparent;
+  border-radius: 50%;
+  margin: auto;
+  animation: spinner 0.7s linear infinite;
+}
+.head {
+  width: 1em;
+  height: 1em;
+  background-color: #141414;
+  border-radius: 50%;
+  margin-left: 8.5em;
+  margin-top: 0.5em;
+}
+@keyframes spinner {
+  100% {
+    transform: rotate(360deg);
+  }
+}
